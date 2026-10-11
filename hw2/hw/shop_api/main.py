@@ -4,7 +4,12 @@ from .models import NewItem, Item, UpdateItem, Cart, CartItem
 from uuid import uuid4
 
 
+from prometheus_fastapi_instrumentator import Instrumentator
+
 app = FastAPI(title="Shop API")
+
+Instrumentator().instrument(app).expose(app)
+
 
 items = {}
 carts = {}
