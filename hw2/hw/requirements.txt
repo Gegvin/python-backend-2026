@@ -11,3 +11,7 @@ Faker>=37.8.0
 
 # Перенес из lecture3
 prometheus-fastapi-instrumentator
+
+# из lecture4
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
