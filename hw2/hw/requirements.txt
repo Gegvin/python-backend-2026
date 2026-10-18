@@ -14,4 +14,4 @@ prometheus-fastapi-instrumentator
 
 # из lecture4
 sqlalchemy==2.0.54
-psycopg2-binary==2.9.9
+psycopg2-binary==2.9.13
